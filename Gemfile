@@ -34,8 +34,7 @@ gem "statsd-ruby"
 # [optional] Sentry appender
 gem "sentry-raven"
 # [optional] Syslog appender when communicating with a remote syslogd over TCP
-gem "syslog_protocol"
-
+gem "syslog_protocol", git: 'https://github.com/syedhassan/syslog_protocol.git'
 group :development do
   gem "rubocop"
 end
